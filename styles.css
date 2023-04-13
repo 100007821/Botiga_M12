@@ -26,11 +26,7 @@
         padding: 40px;
         font-size: 30px;
     }
-    @media only screen and (max-width: 800px) {
-        .column-6 {
-          width: 50%;
-        }
-      }
+   
 .column-8 {
         width: 50%;
         padding: 40px;
