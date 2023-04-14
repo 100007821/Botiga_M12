@@ -1,3 +1,9 @@
+html{
+    font-size: 12px;
+}
+body{
+    margin: 0
+}
 .foto {
     background-image: url(imagenes/portada.jpg);
     width: 100%;
@@ -14,7 +20,10 @@
     font-size: 40px;
     }
 .row{
-    display: flex;}
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
 .estilos{
     border-style: solid;
@@ -22,13 +31,13 @@
     border-color: black;
     }
 .column-6{
-        width: 25%;
+        width: 18%;
         padding: 40px;
         font-size: 30px;
     }
    
 .column-8 {
-        width: 50%;
+        width: 40%;
         padding: 40px;
         font-size: 30px;}
 .titulo{
@@ -38,4 +47,13 @@
     text-align: center;
     background-color: rgb(217, 215, 250);
     text-decoration: none;
+}
+
+@media screen and (max-width: 800px) {
+  .column-6{
+    width: 50%;
+  }
+  .column-8{
+    width: 100%;
+  }
 }
